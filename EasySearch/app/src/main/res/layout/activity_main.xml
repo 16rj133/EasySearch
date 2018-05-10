@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!--底部：RadioGroup-->
+    <!--底部：RadioGroup-->
+    <RadioGroup
+        android:id="@+id/rg_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radioshape"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_base_android"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_common_frame_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/rb_senior_android"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_custom_selector"
+            android:text="知识库" />
+
+        <RadioButton
+            android:id="@+id/rb_common_frame"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_third_party_selector"
+            android:text="通讯录" />
+
+        <RadioButton
+            android:id="@+id/rb_other"
+            style="@style/bottom_tag_style"
+            android:drawableTop="@drawable/rb_other_selector"
+            android:text="我的" />
+    </RadioGroup>
+
+</LinearLayout>

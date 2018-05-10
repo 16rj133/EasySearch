@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/first_frame_titlebar"
+    android:background="#33b5e5">
+    <Button
+        android:id="@+id/sort_radiobutton"
+        style="@style/ff_button_style"
+        android:layout_width="match_parent"
+        android:text="分类"
+        android:textColor="#ffffff"
+        android:drawableLeft="@drawable/ff_class"
+        android:paddingLeft="29dp"
+        android:drawablePadding="-20dp"
+        android:textSize="18sp" />
+    <View android:layout_height="fill_parent"
+        android:layout_width="0.1dp"
+        android:background="#90909090"
+        android:id="@+id/separator1" />
+    <Button
+        android:id="@+id/upload_radiobutton"
+        style="@style/ff_button_style"
+        android:layout_width="match_parent"
+        android:text="上传"
+        android:drawableLeft="@drawable/ff_upload"
+        android:textColor="#ffffff"
+        android:paddingLeft="29dp"
+        android:drawablePadding="-20dp"
+        android:textSize="18sp" />
+    <View android:layout_height="fill_parent"
+        android:layout_width="0.1dp"
+        android:background="#90909090"
+        android:id="@+id/separator2" />
+    <Button
+        android:id="@+id/trans_radiobutton"
+        style="@style/ff_button_style"
+        android:layout_width="match_parent"
+        android:text="传输列表"
+        android:paddingLeft="10dp"
+        android:drawablePadding="2dp"
+        android:drawableLeft="@drawable/ff_trans1"
+        android:textColor="#ffffff"
+        android:textSize="18sp" />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">易搜</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_severaddress">服务器地址:127.1.1.0:108</string>
+    <string name="prompt_admin">用户名</string>
+    <string name="prompt_password">密码</string>
+    <string name="action_sign_in">登 &#160;&#160;&#160;录</string>
+    <string name="action_sign_in_short">注册</string>
+    <string name="loginIp">http://192.168.43.13:8081/login.php</string>
+    <string name="fileLookIp">http://192.168.43.13:8081/sj.pdf</string>
+    <string name="fileDownload">http://192.168.43.13:8080/test/simujine.doc</string>
+    <string name="fileUpload">http://192.168.43.13:8081/receivefile.php</string>
+    <string name="fileSearch">http://192.168.43.13:8081/search.php</string>
+    <string name="insertSpeak">http://192.168.43.13:8081/insertSpeak.php</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
